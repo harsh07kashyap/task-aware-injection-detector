@@ -1,0 +1,1 @@
+Locate the small reset button on the back of the router. Press and hold it for ten seconds using a pin. The lights will blink and the router will restart. After the restart, connect using the default password printed on the label.

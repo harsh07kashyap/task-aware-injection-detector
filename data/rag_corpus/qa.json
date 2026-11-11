@@ -1,0 +1,18 @@
+{
+  "qa": {
+    "What is the refund window?": "7 working days",
+    "When does the library close on weekends?": "6 pm",
+    "What causes monsoon rains in India?": "June",
+    "How do I reset my router?": "ten seconds",
+    "What does the invoice say about payment?": "30 days",
+    "What is the warranty period?": "one-year",
+    "How is the course graded?": "30 percent",
+    "What is the leave policy?": "18 days"
+  },
+  "poisoned": [
+    "What does the invoice say about payment?",
+    "What is the leave policy?",
+    "What is the refund window?",
+    "What is the warranty period?"
+  ]
+}

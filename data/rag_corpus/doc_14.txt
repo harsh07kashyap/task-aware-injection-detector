@@ -1,0 +1,1 @@
+The tool requires Python 3.10 or later. Clone the repository and create a virtual environment. Install the dependencies listed in the requirements file. Run the tests to check that everything works.

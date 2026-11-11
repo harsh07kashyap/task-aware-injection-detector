@@ -1,0 +1,18 @@
+# Quick run for the Colab demo notebook (about 10 minutes on a T4)
+backbone: microsoft/deberta-v3-small
+use_task: true          # false = context-free ablation B1
+max_length: 256
+span_weight: 0.5        # lambda in L = L_cls + lambda * L_span
+lr: 2.0e-5
+weight_decay: 0.01
+batch_size: 16
+epochs: 2
+warmup_ratio: 0.06
+fp16: true
+target_fpr: 0.01        # tau_2 is set on validation data for FPR <= 1%
+tau1_ratio: 0.5         # tau_1 = tau1_ratio * tau_2 (start of the "sanitise" band)
+seed: 13
+log_every: 100
+train_file: data/processed/train.jsonl
+val_file: data/processed/val.jsonl
+out_dir: outputs/quick
