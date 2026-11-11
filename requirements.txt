@@ -1,0 +1,11 @@
+torch>=2.1
+transformers>=4.40
+sentencepiece>=0.1.99
+tiktoken
+protobuf
+datasets>=2.18
+scikit-learn>=1.3
+numpy
+pyyaml
+requests
+pytest
